@@ -1,6 +1,6 @@
 cask "macspanso" do
   version "1.0.0"
-  sha256 "0023fce5ab2c3114ee418a9279ec1f978d35199d6b875b7e38f4fb1503f6094a"
+  sha256 "e0dbe9412965400497721f9e1ae6ff837998f99d4e226cb5567a4ebbfde44411"
 
   url "https://github.com/jeffcaldwellca/macspanso/releases/download/v#{version}/macspanso-#{version}.dmg"
   name "macspanso"
