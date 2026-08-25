@@ -1,6 +1,6 @@
 cask "teleport-ftp" do
-  version "1.0.5"
-  sha256 "2ef66d6e15ab52a2771068da4217e8fb928dceba8bac9a5abff16e4cc07d0ba0"
+  version "1.0.6"
+  sha256 "748c1c4e1d1e79a40fd7fdaa05f07fcb486c18e509d2695bd9b0a231759f3ca1"
 
   url "https://github.com/jeffcaldwellca/teleport/releases/download/v#{version}/Teleport-#{version}.dmg"
   name "Teleport"
