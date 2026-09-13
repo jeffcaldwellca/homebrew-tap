@@ -1,6 +1,6 @@
 cask "portdrop" do
-  version "1.0.1"
-  sha256 "e7a95be8ef3cfb7e353455c0fa0b1e14b5268c42128ae1d55fd5d2bba08a9a90"
+  version "1.1.0"
+  sha256 "8208fecbca65d124cf32ffa43e004fecab06b5509378807c9f5030843c5a8a8e"
 
   url "https://github.com/jeffcaldwellca/portDrop/releases/download/v#{version}/PortDrop-#{version}.dmg"
   name "PortDrop"
