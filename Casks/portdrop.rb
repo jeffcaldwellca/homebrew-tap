@@ -2,14 +2,14 @@ cask "portdrop" do
   version "1.3.1"
   sha256 "0df753bab1dbbd40595d7d72811f1df884871e73d141a30a695f5f5dff0f148d"
 
-  url "https://github.com/jeffcaldwellca/portDrop/releases/download/v#{version}/PortDrop-#{version}.dmg"
+  url "https://www.jeffcaldwell.ca/portDrop/download/v#{version}/PortDrop-#{version}.dmg"
   name "PortDrop"
   desc "Menu-bar utility that lists every process listening on a local TCP port"
-  homepage "https://github.com/jeffcaldwellca/portDrop"
+  homepage "https://www.jeffcaldwell.ca/portDrop/"
 
   livecheck do
-    url :url
-    strategy :github_latest
+    url "https://www.jeffcaldwell.ca/portDrop/appcast.xml"
+    strategy :sparkle
   end
 
   auto_updates true
